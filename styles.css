@@ -58,6 +58,15 @@ p {
     margin-bottom: 15px;
 }
 
+ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
 /*anchor tag to look like a button */
 .btn {
     background-color: #222222;
