@@ -86,3 +86,22 @@ ul li {
 .btn:hover {
     background-color: #904a4a;
 }
+
+/*act 3: Reusable Skills Cards */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.skill-card {
+    background-color: #222222;
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    min-width: 140px;
+}
