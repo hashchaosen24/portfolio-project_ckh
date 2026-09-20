@@ -9,18 +9,20 @@ body {
     background-image: url('images/bgimg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    text-align: center;
+    background-attachment: fixed; /*thebackground stays still while scrolling */
+    color: #1e1b1b;
+    line-height: 1.6;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .profile-img {
@@ -36,21 +38,27 @@ body {
 h1 {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-p {
-    font-size: 0.95rem;
-    color: 333333;
-    margin-bottom: 25px;
+h3 {
+    font-size: 1.1rem;
+    margin: 15px 0 5px;
 }
 
+p {
+    font-size: 0.95rem;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/*anchor tag to look like a button */
 .btn {
     background-color: #222222;
     color: white;
@@ -60,7 +68,10 @@ p {
     font-weight: bold;
     border-radius: 6px;
     cursor: pointer;
+    text-decoration: none; /* required for anchor tags */
+    display: inline-block;
     transition: background-color 0.7s;
+    margin-top: 10px;
 }
 
 .btn:hover {
