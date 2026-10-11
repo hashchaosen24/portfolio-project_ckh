@@ -299,3 +299,58 @@ ul li {
     cursor: pointer;
     font-family: inherit;
 }
+
+/* ===== ACTIVITY 8: RESPONSIVE ===== */
+/* Tablet */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px 10px;
+        padding: 30px 15px;
+    }
+ 
+    h1 {
+        font-size: 1.7rem;
+    }
+ 
+    .skills-grid {
+        flex-wrap: wrap;    /* skill cards go to a new line */
+    }
+ 
+    .skill-card {
+        flex: 1 1 28%;
+    }
+}
+ 
+/* Mobile */
+@media (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;    /* menu links wrap to a second line */
+        gap: 5px;
+    }
+ 
+    .navbar a {
+        padding: 5px 10px;
+        font-size: 0.85rem;
+    }
+ 
+    .intro-section {
+        flex-direction: column; /* image on top, text below */
+        text-align: center;
+    }
+ 
+    .intro-text {
+        align-items: center;
+    }
+ 
+    .about-grid {
+        grid-template-columns: 1fr; /* 1 column */
+    }
+ 
+    .skill-card {
+        flex: 1 1 40%;
+    }
+ 
+    h1 {
+        font-size: 1.5rem;
+    }
+}
