@@ -354,3 +354,16 @@ ul li {
         font-size: 1.5rem;
     }
 }
+
+/* ===== ACTIVITY 9: FOOTER ===== */
+.footer {
+    padding: 20px;
+    background-color: #222222;
+    text-align: center;
+}
+ 
+.footer p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 0.85rem;
+}
